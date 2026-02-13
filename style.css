@@ -1,63 +1,49 @@
-<selector>
+/* Professional Photography Portfolio Styles */
 
-<style class="css">
-
-
-<head><link rel ="stylesheet" href="index.html">
-  
-<meta charset="UTF-8">
-  
-<title>Aida – Photographer Profile</title>
-  
-<style>
-   
 body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background-color: #f7f7f7;
-      color: #222;
-      
-    }
-    .profile-wrapper {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 24px 28px;
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-    }
-    .profile-title {
-      font-size: 1.9rem;
-      margin-bottom: 0.4rem;
-    }
-    .profile-subtitle {
-      font-size: 0.95rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: #888;
-      margin-bottom: 1.4rem;
-    }
-    .profile-text {
-      line-height: 1.7;
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-    .highlight {
-      color: #b46b5c;
-      font-weight: 600;
-    </style>}
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
 
+.profile-wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px 28px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
 
-<body style="background-color: cadetblue; /* 95,158,160; */
-  <section class="profile-wrapper">
-    <h1 class="profile-title">Aida</h1>
-    <div class="profile-subtitle">Portrait Photographer · Name Photography</div>
-}>
-    <p class="profile-text"></p>
-<p><br style="margin: 20px 0;
-strong; "></p>
-<h1 style="background-color: cadetblue; border: 20px solid #808000;">Gallery</h1>
+.profile-title {
+  font-size: 1.9rem;
+  margin-bottom: 0.4rem;
+}
 
-  <section .gallery-title {
+.profile-subtitle {
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 1.4rem;
+}
+
+.profile-text {
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  background-color: cadetblue;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.highlight {
+  color: #b46b5c;
+  font-weight: 600;
+}
+
+.gallery-title {
   position: relative;
   font-size: 3rem;
   font-weight: 700;
@@ -70,32 +56,39 @@ strong; "></p>
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 180px;      /* adjust size */
-  height: 180px;     /* adjust size */
+  width: 180px;
+  height: 180px;
   transform: translate(-50%, -50%);
-  background-image: url("C:/Users/deltagare/Pictures/Projects-image/mainsection/logo.png"); /* watermark image */
+  background-image: url("./image/logo.png");
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.15;     /* soft watermark effect */
-  z-index: -1;       /* places it behind the text"Gallery" */
+  opacity: 0.15;
+  z-index: -1;
 }
-main="main" class="gallery" class="ex"{
-  display: inline;
-  inline-size: none;
-  gap: 21px;
-  margin :left0,1,1;
-}>
 
-</h2>
-        <img src="image/20251115_132400_0001.png" width="300" height="300">
-        <img src="image/20251115_132401_0004.png" width="300" height="300">
-        <img src="image/20251115_132401_0006.png" width="300" height="300">
-        <img src="image/20251115_132401_0007.png" width="300" height="300">
-      </section>
-    
-  </section>
-<h3 style="text-align: center; background-color: #f0f0f0; border: 2px solid #b46b5c;">Contact</h3>
-<table{
+.gallery {
+  display: grid;
+  gap: 21px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-section h3 {
+  text-align: center;
+  border: 2px solid #b46b5c;
+  padding: 12px;
+  margin: 20px 0;
+}
+
+table {
   margin: 0 auto;
   border-collapse: collapse;
   width: 60%;
@@ -103,60 +96,76 @@ main="main" class="gallery" class="ex"{
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 8px;
   padding: 20px;
-<li>Phone: +46 70 123 45 67</li>
-<li>Email: aida@photography.com</li>
-<li>Studio Address: 123 Photography Street, Stockholm</li>
-}>
-</table>
-
-<form action="/submit_form" method="post" style="margin-top: 20px;">
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required style="width: 100%; padding: 8px; margin: 8px 0;"><br>
-  
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin: 8px 0;"><br>
-  
-  <label style="font-weight: bold;" style=label-size::-webkit-validation-bubble-text-block for="message">Message:</label><br>
-  .message-box {
-    width: 100%;          /* fyller sin container */
-    max-width: 700px;     /* fast maxbredd så den inte blir för bred */
-    height: 120px;         /* lagom höjd för korta meddelanden */
-    padding: 10px;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    resize: none;         /* gör så att användaren inte kan dra ut rutan */
-    background-color: #f8f8f8;
-    color: #333;
 }
 
-  <textarea id="message" name="message" rows="4" required style="width: 100%;
-   padding: 8px; margin: 8px 0;"></textarea><br>
-  
-  <input type="submit" value="Send Message" style="background-color: #b46b5c;
-   color: white; padding: 10px 20px; border: none; cursor: pointer;"><br></br>
+table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
 
+form {
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-</form>
- </style>
- </body>
- 
- </html> 
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
 
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
 
+.message-box,
+textarea {
+  width: 100%;
+  max-width: 700px;
+  height: 120px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: none;
+  background-color: #f8f8f8;
+  color: #333;
+  box-sizing: border-box;
+}
 
-<footer style="
+input[type="submit"] {
+  background-color: #b46b5c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+input[type="submit"]:hover {
+  background-color: #a0573f;
+}
+
+footer {
   text-align: center;
   padding: 20px 0;
   margin-top: 40px;
   font-size: 0.9rem;
-  color: #777;
-  background: #f0f0f0;
-  border-top: 1px solid #e0e0e0;">
- 
-© 2026 Aida Photography — All photos and content on this page are created and owned by Aida.
-  Unauthorized use is not permitted.
-</footer>
+  color: #666;
+}
 
 
 
