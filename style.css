@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    background-color: #867373;1
+    
+}
+
+#profile-warper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4
+{
+    color: #070311;
+
+paragraph {
+    color: #000000;
+    font-style: alpha;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.grey {
+    color: #808080;
+
+}
+
+#contact information {
+    font-style: italic;
+    color: #000000;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
