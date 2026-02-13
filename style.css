@@ -6,13 +6,11 @@ body {
   color: #222;
 }
 
-.profile-wrapper {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 24px 28px;
-  background: #ffffff;
+.profile-wrapper img{
+  scrollbar-webkit-scrollbar 
+  background-color: grey;
   border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
 }
 
 .profile-title {
