@@ -12,6 +12,16 @@ body {
   border-radius: 10px;
   box-shadow: inset 0 0 10px rgba(0,0,0,0.2);
 }
+.profile-wrapper 
+webkit-scrollbar-thumb{
+    background-color: #cebcb9;
+    border-radius: 10px solid rgba(0,0,0,0.1);
+}
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 
 .profile-title {
   font-size: 1.9rem;
